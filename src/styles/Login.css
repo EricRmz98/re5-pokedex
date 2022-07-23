@@ -14,10 +14,10 @@
 }
 
 .background-ball {
-    width: 800px;
+    width: 500px;
     position: absolute;
-    top: -237px;
-    left: -237px;
+    top: -150px;
+    left: -150px;
     z-index: -1;
 }
 
@@ -87,9 +87,14 @@
     }
 
     .login-container-text {
-        text-align: center;
         margin-top: 32px;
         margin-bottom: 48px;
+    }
+
+    .background-ball {
+        width: 800px;
+        top: -237px;
+        left: -237px;
     }
 }
 
