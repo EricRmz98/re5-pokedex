@@ -25,7 +25,7 @@ const Login = () => {
             <div className='login-container'>
                 <img src={logo} />
                 <div className='login-container-text'>
-                    <h2 className='marginless-txt welcome-text'><span>Hello Pokemon trainer!</span></h2>
+                    <h2 className='marginless-txt welcome-text'><span>Welcome trainer!</span></h2>
                     <h3 className='marginless-txt petition-text'>Enter your name to start</h3>
                 </div>
                 <form onSubmit={submitUserName}>
