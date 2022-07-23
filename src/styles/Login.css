@@ -92,6 +92,15 @@
     }
 }
 
+@media (min-height: 720px) {
+
+    .background-ball {
+        width: 650px;
+        top: -200px;
+        left: -200px;
+    }
+}
+
 @media (min-height: 940px) {
 
     .background-ball {
