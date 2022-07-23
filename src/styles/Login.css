@@ -90,24 +90,13 @@
         margin-top: 32px;
         margin-bottom: 48px;
     }
+}
+
+@media (min-height: 940px) {
 
     .background-ball {
         width: 800px;
         top: -237px;
         left: -237px;
     }
-}
-
-@media (min-width: 768px) {}
-
-@media (min-width: 992px) {
-    ...
-}
-
-@media (min-width: 1200px) {
-    ...
-}
-
-@media (min-width: 1400px) {
-    ...
 }
