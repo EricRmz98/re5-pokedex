@@ -6,7 +6,9 @@ const Pokedex = () => {
 
     return (
         <div>
-            hola {userName}
+            <header>
+                
+            </header>
         </div>
     );
 };

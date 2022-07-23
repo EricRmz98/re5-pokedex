@@ -14,11 +14,12 @@
 }
 
 .background-ball {
-    width: 500px;
+    width: 800px;
+    top: -237px;
+    left: -237px;
     position: absolute;
-    top: -150px;
-    left: -150px;
     z-index: -1;
+    display: none;
 }
 
 .login-container {
@@ -92,20 +93,9 @@
     }
 }
 
-@media (min-height: 720px) {
+@media (min-width: 1080px) and (min-height: 950px){
 
     .background-ball {
-        width: 650px;
-        top: -200px;
-        left: -200px;
-    }
-}
-
-@media (min-height: 940px) {
-
-    .background-ball {
-        width: 800px;
-        top: -237px;
-        left: -237px;
+        display: block;
     }
 }
