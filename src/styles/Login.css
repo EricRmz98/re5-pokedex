@@ -1,5 +1,5 @@
 .welcome-text {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .petition-text {
@@ -34,8 +34,8 @@
 
 .login-container-text {
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 48px;
+    margin-top: 64px;
+    margin-bottom: 80px;
 }
 
 .start-btn {
@@ -78,4 +78,31 @@
 
     top: -55px;
     left: calc(50vw - 45px);
+}
+
+
+@media (min-width: 576px) {
+    .welcome-text {
+        font-size: 50px;
+    }
+
+    .login-container-text {
+        text-align: center;
+        margin-top: 32px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    ...
+}
+
+@media (min-width: 1200px) {
+    ...
+}
+
+@media (min-width: 1400px) {
+    ...
 }
