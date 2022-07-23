@@ -1,0 +1,25 @@
+span{
+    color: #D93F3F;
+}
+
+.marginless-txt{
+    margin: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.rotate {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
