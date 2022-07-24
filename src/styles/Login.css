@@ -1,4 +1,4 @@
-.welcome-text {
+.hello-text {
     font-size: 40px;
 }
 
@@ -35,8 +35,8 @@
 
 .login-container-text {
     text-align: center;
-    margin-top: 64px;
-    margin-bottom: 80px;
+    margin-top: 32px;
+    margin-bottom: 48px;
 }
 
 .start-btn {
@@ -44,21 +44,16 @@
     background-color: #D93F3F;
     color: white;
     border: 0;
-    height: 68px;
-    width: 25%;
+    padding: 1rem 2rem;
+    width: 115px;
 }
 
 .name-input {
     background-color: #E5E5E5;
     border: 0;
-    height: 68px;
     font-size: 24px;
-    padding: 22px;
-    width: 75%;
-}
-
-.name-input:focus {
-    outline: none;
+    padding: 1rem;
+    width: calc(100% - 115px);
 }
 
 .login-footer {
@@ -83,17 +78,12 @@
 
 
 @media (min-width: 576px) {
-    .welcome-text {
+    .hello-text {
         font-size: 50px;
-    }
-
-    .login-container-text {
-        margin-top: 32px;
-        margin-bottom: 48px;
     }
 }
 
-@media (min-width: 1080px) and (min-height: 950px){
+@media (min-width: 1080px) and (min-height: 950px) {
 
     .background-ball {
         display: block;
