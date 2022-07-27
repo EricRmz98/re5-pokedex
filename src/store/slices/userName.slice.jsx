@@ -5,7 +5,7 @@ export const userNameSlice = createSlice({
     initialState: '',
     reducers: {
         getUserName: ( stete, action ) => {
-            return action.payload;
+            return action.payload.trim();
         }
     }
 })

@@ -46,6 +46,7 @@
     border: 0;
     padding: 1rem 2rem;
     width: 115px;
+    border-radius: 0 .5rem .5rem 0;
 }
 
 .name-input {
@@ -54,6 +55,7 @@
     font-size: 24px;
     padding: 1rem;
     width: calc(100% - 115px);
+    border-radius: .5rem 0 0 .5rem;
 }
 
 .login-footer {

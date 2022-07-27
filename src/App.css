@@ -1,36 +1,51 @@
-span {
+span{
     color: #D93F3F;
 }
 
-.header{
+.header {
     background-color: #DD1A1A;
-    height: 120px;
+    height: 160px;
+    padding-bottom: 40px;
     border-bottom: 20px solid black;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 16px;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.header-logo{
-    width: 50%;
+.header-logo {
+    width: 100%;
     max-width: 431px;
 }
 
-.header-dot{
+.header-dot {
     height: 90px;
     width: 90px;
     background-color: white;
     border-radius: 50%;
     border: 20px solid black;
     position: absolute;
-    right: 90px;
+    right: calc(50% - 45px);
     bottom: -55px;
 }
 
 .marginless-txt {
     margin: 0;
+}
+
+.weightless-txt {
+    font-weight: 400;
+}
+
+.d-inline{
+    display: inline-block;
+}
+
+.light-txt{
+    color: #9F9F9F;
 }
 
 button:hover {
@@ -43,6 +58,22 @@ input:focus {
 
 .rotate {
     animation: rotation 8s infinite linear;
+}
+
+.white-txt{
+    color: white;
+}
+
+@media (min-width: 700px){
+    .header {
+        height: 120px;
+        align-items: flex-start;
+        padding-bottom: 0;
+    }
+
+    .header-dot {
+        right: 90px;
+    }
 }
 
 @keyframes rotation {
